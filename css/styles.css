@@ -1,0 +1,48 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #FFFFFF;
+    color: #434455;
+}
+.header .nav {
+    font-family: "Roboto", sans-serif, "Raleway", sans-serif;
+    background-color: #FFFFFF;
+}
+.logo {
+    color: #4D5AE5;
+        font-family: Raleway;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+}
+.logo-dark {
+    color: #2E2F42;
+        font-family: Raleway;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+}
+.nav-list .item {
+    color: #2E2F42;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+}
+
+.adress .adress-list .contacts {
+    color: #434455;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+}
