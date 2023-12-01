@@ -1,19 +1,29 @@
+/* Body */
 body {
   font-family: "Roboto", sans-serif;
   background-color: #ffffff;
   color: #434455;
 }
 
+/* Header */
 .header {
   font-family: "Roboto", sans-serif, "Raleway", sans-serif;
   background-color: #ffffff;
 }
 
+/* Common files*/
+li {
+  list-style-type: none;
+  text-decoration: none;
+  text-decoration-line: none;
+}
+.adv .title .team-list .list-title .our-pot .op-list 
+
+/* Logo*/
 .logo {
   color: #4d5ae5;
   font-family: Raleway;
   font-size: 18px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -24,7 +34,6 @@ body {
   color: #2e2f42;
   font-family: Raleway;
   font-size: 18px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -32,60 +41,110 @@ body {
   text-decoration: none;
 }
 
-.nav .nav-list .nav-items {
+/* Nav */
+.nav .nav-list a {
   color: #2e2f42;
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.32px;
-  list-style-type: none;
   text-decoration: none;
-  text-decoration-line: none;
-}
-.nav-list a {
-  color: #2e2f42;
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-  list-style-type: none;
-  text-decoration: none;
-  text-decoration-line: none;
 }
 .nav-items .link:hover,
 .nav-items .link:focus {
-  color: #2e2f42;
+  color: #404bbf;
 }
 
-.adress .adress-list .contacts {
+/* Adress */
+.adress .adress-list .contacts a {
   color: #434455;
-  font-family: Roboto;
-  font-size: 16px;
   font-style: normal;
-  font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.32px;
-  list-style-type: none;
   text-decoration: none;
-  text-decoration-line: none;
-}
-.adress-list a {
-  color: #434455;
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-  list-style-type: none;
-  text-decoration: none;
-  text-decoration-line: none;
 }
 .contacts .link:hover,
-.contacts .link:hover {
-  color: #434455;
+.contacts .link:focus {
+  color: #404bbf;
+}
+
+/* Button */
+.section {
+  background-color: #2e2f42;
+}
+.sec-title {
+  color: #fff;
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 1.12px;
+}
+button {
+  background: #4d5ae5;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+}
+.button .link:hover,
+.button .link:focus {
+  background-color: #404bbf;
+}
+
+/* Section Advantages */
+.adv .title {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+}
+
+/* Section Our Team*/
+.our-team {
+  background-color: #f4f4fd;
+}
+.team-title {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+.team-list .list-title {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+}
+/* Section Our Portfolio */
+.op-title {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+.op-list .list-title {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+}
+
+/* Footer */
+.footer {
+  background-color: #2e2f42;
+}
+.f-text {
+  color: #f4f4fd;
+  line-height: 24px;
+  letter-spacing: 0.32px;
 }
