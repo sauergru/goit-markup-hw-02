@@ -17,7 +17,6 @@ li {
   text-decoration: none;
   text-decoration-line: none;
 }
-.adv .title .team-list .list-title .our-pot .op-list 
 
 /* Logo*/
 .logo {
@@ -25,8 +24,8 @@ li {
   font-family: Raleway;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
+  line-height: 21px;
+  letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -35,10 +34,9 @@ li {
   font-family: Raleway;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
+  line-height: 21px;
+  letter-spacing: 0.54px;
   text-transform: uppercase;
-  text-decoration: none;
 }
 
 /* Nav */
@@ -80,7 +78,7 @@ li {
   letter-spacing: 1.12px;
 }
 button {
-  background: #4d5ae5;
+  background-color: #4d5ae5;
   color: #fff;
   cursor: pointer;
   font-weight: 500;
@@ -142,6 +140,25 @@ button {
 /* Footer */
 .footer {
   background-color: #2e2f42;
+}
+.f-logo {
+  color: #4d5ae5;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.logo-light {
+  color: #f4f4fd;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
 }
 .f-text {
   color: #f4f4fd;
