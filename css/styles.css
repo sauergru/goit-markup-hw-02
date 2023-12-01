@@ -1,48 +1,91 @@
 body {
-    font-family: "Roboto", sans-serif;
-    background-color: #FFFFFF;
-    color: #434455;
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  color: #434455;
 }
-.header .nav {
-    font-family: "Roboto", sans-serif, "Raleway", sans-serif;
-    background-color: #FFFFFF;
+
+.header {
+  font-family: "Roboto", sans-serif, "Raleway", sans-serif;
+  background-color: #ffffff;
 }
+
 .logo {
-    color: #4D5AE5;
-        font-family: Raleway;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
+  color: #4d5ae5;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 .logo-dark {
-    color: #2E2F42;
-        font-family: Raleway;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
+  color: #2e2f42;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
 }
-.nav-list .item {
-    color: #2E2F42;
-        font-family: Roboto;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 24px;
-        letter-spacing: 0.32px;
+
+.nav .nav-list .nav-items {
+  color: #2e2f42;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  list-style-type: none;
+  text-decoration: none;
+  text-decoration-line: none;
+}
+.nav-list a {
+  color: #2e2f42;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  list-style-type: none;
+  text-decoration: none;
+  text-decoration-line: none;
+}
+.nav-items .link:hover,
+.nav-items .link:focus {
+  color: #2e2f42;
 }
 
 .adress .adress-list .contacts {
-    color: #434455;
-        font-family: Roboto;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 24px;
-        letter-spacing: 0.32px;
+  color: #434455;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  list-style-type: none;
+  text-decoration: none;
+  text-decoration-line: none;
+}
+.adress-list a {
+  color: #434455;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  list-style-type: none;
+  text-decoration: none;
+  text-decoration-line: none;
+}
+.contacts .link:hover,
+.contacts .link:hover {
+  color: #434455;
 }
