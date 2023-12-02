@@ -54,6 +54,9 @@ li {
 }
 
 /* Adress */
+.address {
+  font-style: normal;
+}
 .contact-link {
   color: #434455;
   font-style: normal;
