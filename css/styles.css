@@ -40,31 +40,29 @@ li {
 }
 
 /* Nav */
-.nav .nav-list a {
+.nav-link {
   color: #2e2f42;
+  font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.nav-items .link:hover,
-.nav-items .link:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: #404bbf;
 }
 
 /* Adress */
-.adress {
-  font-style: normal;
-}
-.adress .adress-list .contacts a {
+.contact-link {
   color: #434455;
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.contacts .link:hover,
-.contacts .link:focus {
+.contact-link:hover,
+.contact-link:focus {
   color: #404bbf;
 }
 
@@ -80,7 +78,7 @@ li {
   line-height: 1.07;
   letter-spacing: 0.02em;
 }
-button {
+.button {
   background-color: #4d5ae5;
   color: #fff;
   cursor: pointer;
@@ -88,8 +86,8 @@ button {
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
-.button .link:hover,
-.button .link:focus {
+.button:hover,
+.button:focus {
   background-color: #404bbf;
 }
 
@@ -99,6 +97,11 @@ button {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.text {
+  color: #434455;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
@@ -125,6 +128,9 @@ button {
 .list-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+.li-img {
+  background-color: #ffffff;
 }
 /* Section Our Portfolio */
 .op-title {
