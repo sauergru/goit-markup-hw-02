@@ -21,7 +21,7 @@ li {
 /* Logo*/
 .logo {
   color: #4d5ae5;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -31,7 +31,7 @@ li {
 }
 .logo-dark {
   color: #2e2f42;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -53,6 +53,9 @@ li {
 }
 
 /* Adress */
+.adress {
+  font-style: normal;
+}
 .adress .adress-list .contacts a {
   color: #434455;
   font-style: normal;
@@ -74,7 +77,7 @@ li {
   text-align: center;
   font-size: 56px;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.07;
   letter-spacing: 0.02em;
 }
 button {
@@ -108,7 +111,7 @@ button {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
@@ -125,11 +128,12 @@ button {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 .op-list .list-title {
+  background-color: #ffffff;
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
@@ -143,20 +147,20 @@ button {
 }
 .f-logo {
   color: #4d5ae5;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.7;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
 }
 .logo-light {
   color: #f4f4fd;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.7;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
