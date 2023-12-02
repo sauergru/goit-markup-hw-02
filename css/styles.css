@@ -122,6 +122,10 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
+.list-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
 /* Section Our Portfolio */
 .op-title {
   color: #2e2f42;
@@ -132,8 +136,10 @@ button {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-.op-list .list-title {
+.op-list {
   background-color: #ffffff;
+}
+.op-list .list-title {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
