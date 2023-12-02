@@ -24,8 +24,8 @@ li {
   font-family: Raleway;
   font-size: 18px;
   font-weight: 700;
-  line-height: 21px;
-  letter-spacing: 0.54px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -34,8 +34,8 @@ li {
   font-family: Raleway;
   font-size: 18px;
   font-weight: 700;
-  line-height: 21px;
-  letter-spacing: 0.54px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
@@ -43,8 +43,8 @@ li {
 .nav .nav-list a {
   color: #2e2f42;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   text-decoration: none;
 }
 .nav-items .link:hover,
@@ -56,8 +56,8 @@ li {
 .adress .adress-list .contacts a {
   color: #434455;
   font-style: normal;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   text-decoration: none;
 }
 .contacts .link:hover,
@@ -74,16 +74,16 @@ li {
   text-align: center;
   font-size: 56px;
   font-weight: 700;
-  line-height: 60px;
-  letter-spacing: 1.12px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
 }
 button {
   background-color: #4d5ae5;
   color: #fff;
   cursor: pointer;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.64px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 .button .link:hover,
 .button .link:focus {
@@ -95,8 +95,8 @@ button {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 /* Section Our Team*/
@@ -108,16 +108,16 @@ button {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px;
-  letter-spacing: 0.72px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 .team-list .list-title {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 /* Section Our Portfolio */
 .op-title {
@@ -125,16 +125,16 @@ button {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px;
-  letter-spacing: 0.72px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 .op-list .list-title {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 /* Footer */
@@ -146,8 +146,8 @@ button {
   font-family: Raleway;
   font-size: 18px;
   font-weight: 700;
-  line-height: 21px;
-  letter-spacing: 0.54px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -156,12 +156,12 @@ button {
   font-family: Raleway;
   font-size: 18px;
   font-weight: 700;
-  line-height: 21px;
-  letter-spacing: 0.54px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .f-text {
   color: #f4f4fd;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
